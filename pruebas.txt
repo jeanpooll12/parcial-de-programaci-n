@@ -1,27 +1,49 @@
 
 Prueba 1:
+inicializar prueba 
 
-Frecuencia de la señal: 3000
+datos constantes 
 Media: 1000
 Desviación estándar: 300
 Umbral: 0.3
+
+dato ingresado por el usuario
+Frecuencia de la señal: 3000
 Resultado esperado: La señal pasa el filtro.
 
 Prueba 2:
+inicializar prueba 
 
-Frecuencia de la señal: 842
+tados constantes 
 Media: 1000
 Desviación estándar: 300
 Umbral: 0.3
+
+dato ingresado por el usuario
+Frecuencia de la señal: 842
 Resultado esperado: La señal es bloqueada por el filtro.
 
 Prueba 3:
+inicializar prueba 
 
-Frecuencia de la señal: 843
+tados constantes 
 Media: 1000
 Desviación estándar: 300
 Umbral: 0.3
+
+Frecuencia de la señal: 843
 Resultado esperado: La señal pasa el filtro.
+
+Prueba 4:
+inicializar prueba 
+
+tados constantes 
+Media: 1000
+Desviación estándar: 300
+Umbral: 0.3
+
+Frecuencia de la señal: -843
+Resultado esperado: La señal es bloqueada por el filtro.
 
 Pregunta: ¿para qué valor de frecuencia la señal deja de ser bloqueada?
 la señal de ja de ser bloqueada a partir de 842 hz  
