@@ -1,0 +1,27 @@
+
+Prueba 1:
+
+Frecuencia de la señal: 3000
+Media: 1000
+Desviación estándar: 300
+Umbral: 0.3
+Resultado esperado: La señal pasa el filtro.
+
+Prueba 2:
+
+Frecuencia de la señal: 842
+Media: 1000
+Desviación estándar: 300
+Umbral: 0.3
+Resultado esperado: La señal es bloqueada por el filtro.
+
+Prueba 3:
+
+Frecuencia de la señal: 843
+Media: 1000
+Desviación estándar: 300
+Umbral: 0.3
+Resultado esperado: La señal pasa el filtro.
+
+Pregunta: ¿para qué valor de frecuencia la señal deja de ser bloqueada?
+la señal de ja de ser bloqueada a partir de 842 hz  

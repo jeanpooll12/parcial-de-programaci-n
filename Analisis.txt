@@ -1,0 +1,25 @@
+Descripción del problema:
+crear un codigo de la simulacion del proceso de filtrado señales utilizando la distribución normal con la funcion de la probabilidad (fdp)
+
+Entrada:
+- frecuencia de la señal (numero positivo)
+
+Salida:
+- mensaje indicando si la señal pasa o es bloqueada por el filtro.
+
+Otras variables:
+
+- Media (𝜇) de la distribución normal: 1000 Hz.
+- Desviación estándar (𝜎) de la distribución normal: 300 Hz.
+- humbral de probabilidad acomulada 
+
+Proceso:
+- Se define la función de densidad de probabilidad (fdp) de la campana de Gauss.
+- Se calcula la probabilidad acumulada sumando la (fdp) para todas las frecuencias desde cero hasta la frecuencia de la señal de entrada.
+- Se compara la probabilidad acumulada con el umbral del 30%.
+- Se muestra un mensaje indicando si la señal pasa o es bloqueada por el filtro.
+
+Restricciones:
+
+- Se recomienda utilizar un paso de 1 Hz para las iteraciones.
+- se utiliza el umbral predefinido para saber si la señal es bloqueada o pasa por el filtro 
