@@ -1,2 +1,2 @@
-# parcial-de-programaci-n
+# parcial-de-programacion
 parcial de programación 
